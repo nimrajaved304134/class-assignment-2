@@ -1,0 +1,26 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh-6rem) ;
+    color: #F97316;
+    font-weight: bold;
+
+}
+
+.box{
+    height: 1/2;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.heading{
+    font-size: 5xl;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.link{
+    font-weight: bolder;
+}

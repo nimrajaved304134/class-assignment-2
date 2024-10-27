@@ -1,0 +1,20 @@
+/* className='h-14 px-4 bg-orange-500 text-white flex items-center justify-center text-center text-sm md:text-base cursor-pointer' */
+.div{
+    height:3.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #F97316;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+@media (min-width:768px){
+    .div{
+        font-size: 1rem;
+    }
+}
+

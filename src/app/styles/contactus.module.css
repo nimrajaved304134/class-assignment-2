@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    width: 100%;
+    color: #F97316;
+    border-color: #F97316;
+    justify-content: center;
+
+}
+
+
+
+.label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    border-color: #F97316;
+
+}
+
+.inputfield{
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 2rem;
+    outline: none;
+    border-color: #F97316;
+    border-width: 0.2rem;
+
+}
+
+.inputField:focus {
+    border-color: #007bff; /* Change border color on focus */
+  }
+
+ 
+
+.button{
+    background-color: #F97316;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    padding-top: 1rem;
+    padding-bottom: 1;
+    font-size: large;
+  
+}
+
+.button:hover{
+    box-shadow: 0 0 10px rgba(119, 33, 1, 0.8), 0 0 20px rgba(255, 127, 80, 0.6); 
+}
+
+.text{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body{
+    display: block;
+    width: 100%;
+    height: 50rem;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #F97316
+    
+}
+
+.heading{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    text-transform:uppercase;
+    padding-top: 5rem;
+
+
+}
+
+.details1{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: medium;
+    text-align:center;
+    
+}
+
+.details2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: medium;
+    text-align:center;
+    
+}
+

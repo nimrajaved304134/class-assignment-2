@@ -1,0 +1,33 @@
+.menuToggleButton{
+    cursor: pointer;
+}
+
+.menuContainer{
+    background-color: #F97316;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 6rem;
+    height: calc(100vh - 6rem);
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.menuLink {
+    color: white; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.menuLink:hover {
+    color: #b92b08; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}

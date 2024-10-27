@@ -1,0 +1,91 @@
+.body{
+    display: block;
+    width: 100%;
+    height: 110rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #F97316;
+    
+}
+
+.heading{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    text-transform:uppercase;
+    padding-top: 20rem;
+
+
+}
+
+.details1{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: medium;
+    text-align:center;
+    
+}
+
+.details2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: medium;
+    text-align:center;
+    
+}
+
+/* For tablets and smaller laptops */
+@media (max-width: 1024px) {
+    .heading {
+        font-size: 80px;
+        padding-top: 15rem;
+    }
+
+    .details1 {
+        font-size: 50px;
+    }
+
+    .details2 {
+        font-size: 35px;
+    }
+}
+
+/* For mobile devices (portrait orientation) */
+@media (max-width: 768px) {
+    .body {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .heading {
+        font-size: 60px;
+        padding-top: 10rem;
+    }
+
+    .details1 {
+        font-size: 40px;
+    }
+
+    .details2 {
+        font-size: 30px;
+    }
+}
+
+/* For very small devices like phones */
+@media (max-width: 480px) {
+    .heading {
+        font-size: 40px;
+        padding-top: 5rem;
+    }
+
+    .details1 {
+        font-size: 30px;
+    }
+
+    .details2 {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,92 @@
+.container{
+    width:100vw;
+    overflow-x: scroll;
+    color: rgb(216, 78, 13);
+    flex-direction: row;
+    padding: 2rem;
+    
+}
+
+.flexcontainer{
+    display: flex;
+    width: max-content;
+    align-items: center;
+}
+
+.prductcard{
+    width: 80vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-around;
+    transition-duration: 0.3s;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+.prductcard:hover{
+    background-color: #ffedd5;
+ 
+}
+
+.image{
+    position: relative;
+    flex: 1;
+    width:100%;
+    transition-duration: 0.5s;
+    border-radius: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+.image:hover{
+    cursor: pointer;
+}
+
+.producttitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.productinfo{
+    flex: 1;
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.productprice{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.productbtn{
+    background-color: #F97316;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.productbtn:hover{
+    box-shadow: 0 0 10px rgba(255, 127, 80, 0.8), 0 0 20px rgba(255, 127, 80, 0.6); 
+}
